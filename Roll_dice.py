@@ -1,10 +1,10 @@
-import random as Ra
+import random as Ran
 
 def Roll_dice():      ##摇骰子，得到三个骰子的点数
     print('===========Roll the dice!===========')
     points = []
     for x in range(1,4):
-        points.append(Ra.randrange(1, 7))  #append是没有返回值的，直接对列表进行增加元素
+        points.append(Ran.randrange(1, 7))  #append是没有返回值的，直接对列表进行增加元素
     return points
 
 def Rool_Result(total):     ##定义摇骰子结果大还是小
